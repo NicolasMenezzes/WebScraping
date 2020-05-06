@@ -1,0 +1,16 @@
+const tshirt = require("./lib/tshirt")
+const sweatshirt = require("./lib/sweatshirt")
+const jackets = require("./lib/jackets")
+const shorts = require("./lib/shorts")
+const pants = require("./lib/pants")
+const poloshirt = require("./lib/poloshirt")
+const shoes = require("./lib/shoes")
+
+
+sweatshirt.sweatshirt()
+tshirt.tshirt()
+jackets.jackets()
+shorts.shorts()
+pants.pants()
+poloshirt.poloshirt()
+shoes.shoes()
